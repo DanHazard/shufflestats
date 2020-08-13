@@ -1,0 +1,4 @@
+class MatchSerializer
+  include FastJsonapi::ObjectSerializer
+  attributes :id, :game_id, :home_team_id, :away_team_id, :home_player_one_id, :home_player_two_id, :home_player_three_id, :home_player_four_id, :away_player_one_id, :away_player_two_id, :away_player_three_id, :away_player_four_id, :home_player_one_score, :home_player_two_score, :home_player_three_score, :home_player_four_score, :away_player_one_score, :away_player_two_score, :away_player_three_score, :away_player_four_score, :home_player_one_frames_played, :home_player_two_frames_played, :home_player_three_frames_played, :home_player_four_frames_played, :away_player_one_frames_played, :away_player_two_frames_played, :away_player_three_frames_played, :away_player_four_frames_played, :match_one_winner_id, :match_two_winner_id, :match_three_winner_id
+end
