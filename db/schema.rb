@@ -64,6 +64,7 @@ ActiveRecord::Schema.define(version: 2020_08_12_042800) do
     t.string "first_name"
     t.string "last_name"
     t.string "email"
+    t.string "password_digest"
     t.integer "team_id"
     t.integer "frames_played"
     t.integer "total_points_scored"
